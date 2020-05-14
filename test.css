@@ -1,0 +1,91 @@
+body{
+    background-color: #2ecc71;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-align: center;
+    color: #34495e;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+h3{
+    font-family: 'Catamaran', sans-serif;
+    color: #34495e;
+    font-size: 30px;
+}
+    
+p{
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+}
+
+.heading{
+    font-size: 90px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+    font-family: 'Parisienne', cursive;
+    color: #9b59b6;
+}
+
+.writing{
+    width: auto;
+    padding: 50px 150px;;
+    font-size: 25px;
+}
+
+
+.singer-pic{
+    border-radius: 20%;
+    padding-right: 50px;
+    float: right;
+    width: 300px;
+    height: 175px;
+}
+
+
+.cricket-pic{
+    border-radius: 20%;
+    padding-left: 50px;
+    float: left;
+    width: 275px;
+    height: 200px;
+}
+
+.song{
+    color: #c0392b;
+    cursor: pointer;
+}
+
+.float{
+    margin: 20px auto;
+    padding: 20px;
+    height: 300px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    animation: shade 8s;
+}
+
+.footer{
+    background-color: #8e44ad;
+    width: 100%;
+    margin: auto;
+    height: 100px;
+}
+
+.links{
+    padding: 50px 30px 0;
+    font-size: 22px;
+    margin: auto;
+    text-decoration: none;
+}
+
+@keyframes shade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
