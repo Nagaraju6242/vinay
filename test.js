@@ -5,7 +5,7 @@ var n = s.length;
 var count = 0;
 var x = document.getElementById('test');
 function add(){
-    x.innerHTML = s[count++];
+    x.innerHTML += s[count++];
     if(count == n)
         clearInterval(t);
 }
