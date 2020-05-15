@@ -11,7 +11,7 @@ function add(){
         clearInterval(t);
 }
 
-var t = setInterval(add , 75);
+var t = setInterval(add , 50);
 
 function song(){
     if(audio_play == 0){
